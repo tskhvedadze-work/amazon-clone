@@ -12,8 +12,6 @@ export default function LoginView() {
     formState: { errors },
   } = useForm<Inputs>();
 
-  console.log(errors);
-
   const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
 
   return (
